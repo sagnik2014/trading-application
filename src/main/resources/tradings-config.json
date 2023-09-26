@@ -1,0 +1,67 @@
+{
+  "JIRA_1": {
+    "className": "com.db.org.trading.Algo",
+   
+    "methods": [
+      {
+        "methodName": "setUp",
+        "methodParameters": []
+      },
+      {
+        "methodName": "setAlgoParam",
+        "methodParameters": [1 , 60]
+      },
+      {
+        "methodName": "performCalc",
+        "methodParameters": []
+      },
+      {
+        "methodName": "submitToMarket",
+        "methodParameters": []
+      }
+    ]
+    
+  },
+  
+  "JIRA_2": {
+    "className": "com.db.org.trading.Algo",
+     "methods": [
+      {
+        "methodName": "reverse",
+        "methodParameters": []
+      },
+      {
+        "methodName": "setAlgoParam",
+        "methodParameters": [1 , 80]
+      },
+      
+      {
+        "methodName": "submitToMarket",
+        "methodParameters": []
+      }
+    ]
+  },
+  "JIRA_3": {
+    "className": "com.db.org.trading.Algo",
+     "methods": [
+      
+      {
+        "methodName": "setAlgoParam",
+        "methodParameters": [1 , 90]
+      },
+      {
+        "methodName": "setAlgoParam",
+        "methodParameters": [2 , 15]
+      },
+      {
+        "methodName": "performCalc",
+        "methodParameters": []
+      },
+      
+      {
+        "methodName": "submitToMarket",
+        "methodParameters": []
+      }
+    ]
+  }
+}
